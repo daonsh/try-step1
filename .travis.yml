@@ -4,8 +4,9 @@ node_js:
   - "7"
 deploy:
   provider: s3
-  access_key_id: "AKIAJZJDHU47DUYXRB4A"
-  secret_access_key: "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"
+  access_key_id: $AWSAccessKeyId
+  secret_access_key: $AWSSecretKey
   bucket: "try-step1"
+  upload-dir:  deployed
   skip_cleanup: true
 
