@@ -4,7 +4,8 @@ node_js:
   - "7"
 deploy:
   provider: s3
-  access_key_id: "YOUR AWS ACCESS KEY"
-  secret_access_key: "YOUR AWS SECRET KEY"
+  access_key_id: "AKIAJZJDHU47DUYXRB4A"
+  secret_access_key: "uMxu0Z8JY9tjm127xQGNdn/7zyxJOOY2V8iU/VVK"
   bucket: "try-step1"
   skip_cleanup: true
+
